@@ -1,0 +1,109 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "userall",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cityId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "country",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveChild",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveExpireance",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveclass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isPartime",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "language",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "liveIn",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "religion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "salary",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "userall",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "workType",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "cityId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "country",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveChild",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveExpireance",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "haveclass",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isPartime",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "language",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "liveIn",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "religion",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "salary",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "age",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

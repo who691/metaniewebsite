@@ -1,0 +1,3105 @@
+
+.hero{
+  
+    margin: 0;
+}
+.herosec1{
+    width: 100%;
+    background: linear-gradient(lightblue,lightcyan);
+    
+}
+
+.herostart{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.herotext p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+    color: #424242;
+    padding: 0;
+}
+.herotext h4{
+    color: #007bff;
+    font-size: 40px;
+    margin: 20px 0;
+
+    padding: 0;
+}
+
+.btnhe{
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnhe:hover{
+  opacity: 0.8;
+}
+
+.btnre{
+    background: #28a745;
+}
+.btnse{
+    background: #17a2b8;
+}
+
+.herolast{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.conHero1{
+    width: 350px;
+    height: 150px;
+    background: #f6f8fa;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 5px 10px #424242  ;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.conHero1:hover {
+cursor: pointer;
+    color: #007bff;
+  }
+
+
+
+.icontext h2{
+    margin: 0;
+    padding: 0;
+}
+
+.icontext p{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.iconheros{
+    font-size: 80px;
+    color: #28a745;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+
+.herosec2{
+   
+   background-image: url('../../component/Assets/bgcrop.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  background-position: right;
+    height: 90vh;
+padding-top: 80px;
+}
+
+.heroserv{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.heroserv h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.heroserv hr{
+    width: 10%;
+    border: 1px solid white;
+    margin-bottom: 80px;
+}
+
+.serviceHero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.conserve{
+    width: 250px;
+    height: 200px;
+    background: #f6f8fa;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 5px 10px #424242  ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.conserve .imgServe{
+    height: 10vh;
+}
+.conserve h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    color: #424242;
+    font-size: 30px;
+}
+
+.moreservice button{
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background: #28a745;
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+.moreservice button:hover{
+    box-shadow: 0 2px 10px #ffffff;
+    background: white;
+    color: #28a745;
+   
+}
+
+.herosec3{
+   
+   background-image: url('../../component/Assets/bgcrop.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+  background-position: left;
+    height: 165vh;
+padding-top: 80px;
+      
+}
+
+.workers{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.workers h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.workers p{
+    background: linear-gradient(lightblue,lightcyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:  0 -10px 20px #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+.moreWorker button{
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background: #28a745;
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+.moreWorker button:hover{
+    box-shadow: 0 2px 10px #ffffff;
+    background: white;
+    color: #28a745;
+   
+}
+
+.workerHero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px; 
+}
+
+.conworker{
+    width: 280px;
+    height: 500px;
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0 5px 10px #424242  ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden ;
+    
+}
+ .workersimage:hover{
+    transition: all 1s ease-in-out;
+   transform: scale(1.1);
+   opacity: 0.7;
+}
+
+.conworker h2{
+  font-size: 25px;
+  color: black;
+  margin: 10px 0;
+}
+.conworker h3{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+  
+}
+.conworker h4{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 2px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+}
+.conworker h5{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 2px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+}
+
+.btnhewe{
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnhewe:hover{
+  opacity: 0.8;
+}
+
+.btnrewe{
+    background: #28a745;
+}
+
+.workersimage{
+    width: 100%;
+}
+
+.herosec4{
+    background: linear-gradient( to left,  rgb(206, 199, 199) 50% , #f7efef 90%   );
+     height: 50vh;
+ padding-top: 80px;
+ box-shadow:  0 10px 20px #424242,
+ inset 0 50px 70px lightblue ;
+ border: none;
+}
+
+.howitwork{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.howitwork h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.howitwork p{
+    color: #424242;
+    margin: 0;
+    text-shadow:  0 -10px 20px #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+
+.findoneicon{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 200px;
+    margin-bottom: 20px;
+}
+
+.icon1hero{
+    display: flex;
+    color: #28a745;
+}
+.icon1hero hr{
+    background: #28a745;
+    height: 3px;
+  width: 100px;
+  outline: none;
+  border: none;
+ margin-top: 20px;
+}
+
+.iconHero1{
+   font-size: 20px;
+   
+}
+.iconherooo{
+    border: 3px solid #28a745;
+    width: 40px ;
+    height: 40px;
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.icon1hero .iconhrhero{
+    background: #28a745;
+    height: 3px;
+  width: 25px;
+  outline: none;
+  border: none;
+ margin-top: 20px;
+}
+.icon1hero .iconhrheroa{
+    background: #000;
+    height: 3px;
+  width: 75px;
+  outline: none;
+  border: none;
+ margin-top: 20px;
+}
+
+.findHero h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.findHero p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.payHero h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.payHero p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.contactHero h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.contactHero p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.findone{
+    display: flex;
+}
+
+.herosec5{
+    background: linear-gradient( to left,  rgb(206, 199, 199) 50% , #f7efef 90%   );
+    height: 75vh;
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: none;
+}
+
+.clientfeedback{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientfeedback h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.clientfeedback p{
+    color: #28a745;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.clientfeedback hr{
+    width: 10%;
+    border: 1px solid #28a745;
+    
+    margin-bottom: 80px;
+}
+
+.conclient{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    cursor: pointer;
+ 
+}
+
+.confeedback{
+    width: 350px;
+    height: 200px;
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow:  0 5px 10px #424242  ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+    overflow: hidden ;
+    margin-left: 20px;
+}
+.confeedbackk{
+    width: 350px;
+    height: 300px;
+    background: transparent;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow:  0 5px 10px #424242  ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+    overflow: hidden ;
+    margin-left: 20px;
+}
+
+.confeedback p{
+    font-size: 16px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.confeedback .avater{
+    background-position: center;
+    height: 7vh;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.confeedbackk p{
+    font-size: 16px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.confeedbackk .avater{
+    background-position: center;
+    height: 7vh;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+.heroavater{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.herotextavater{
+    display: flex;
+    flex-direction: column;
+}
+.herotextavater h4{
+   margin: 0;
+   font-size: 24px;
+}
+.herotextavater h5{
+   margin: 0;
+   font-size: 20px;
+   color: #28a745;
+}
+
+.swipe_clinet{
+   
+  width: 70%;
+  margin: 0 auto;
+ padding: 100px;
+
+}
+
+.herosec6{
+   margin: 0;
+    background-image: url('../../component/Assets/bgcolor.png');
+ width: 100%;
+ height: 25vh;
+background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top;
+border: none;
+box-shadow:   0 10px 20px #007bff;
+
+}
+
+
+.starthero{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.herosec6 h1{
+   margin: 0;
+    color: white;
+    text-shadow: 0 10px 20px #000;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.startbtnhewe{
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    margin-right: 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.startbtnhewe:hover{
+    transition: all 0.1s ease-in-out;
+  opacity: 0.8;
+  background: white;
+  color: #28a745;
+ 
+}
+
+.startbtnrewe{
+    background: #28a745;
+}
+
+/*
+
+.dots{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.dotsHero{
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid #f7efef;
+    background: #f7efef;
+  cursor: pointer;
+}
+.activee{
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    border: 1px solid #f7efef;
+    background: #000000;
+  
+}
+
+*/
+
+
+@media only screen and (max-width:2560px){
+
+    .herosec2{
+        height: 60vh;
+    }
+    .herosec3{
+        height: 90vh;
+    }
+    .herosec4{
+        height: 30vh;
+    }
+    .herosec5{
+        height: 40vh;
+    }
+    .herosec6{
+        height: 15vh;
+    }
+    .heroserv{
+        width: 100%;   
+    }
+    .conserve{
+        width: 350px;
+        height: 300px;
+   
+    }
+    
+    .confeedback{
+        width: 450px;
+        height: 200px;
+    }
+    .confeedbackk{
+        width: 450px;
+        height: 300px;
+    }
+     
+}
+@media only screen and (max-width:2000px){
+    .herosec2{
+        height: 95vh;
+    }
+    .herosec3{
+        height: 190vh;
+    }
+    .herosec4{
+        height: 60vh;
+    }
+    .herosec5{
+        height: 80vh;
+    }
+    .herosec6{
+        height: 20vh;
+    }
+    .heroserv{
+        width: 100%;   
+    }
+    .conserve{
+        width: 250px;
+        height: 200px;
+   
+    }
+    .herolast{
+        width: 80%;
+    }
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+        cursor: pointer;
+     
+    }
+    
+    .confeedback{
+        width: 300px;
+    }
+    .confeedbackk{
+        width: 320px;
+    }
+
+   
+}
+@media only screen and (max-width:1440px) {
+
+    .herostart{
+        width: 80%;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{   
+        font-size: 16px !important;    
+    }
+    .btnre{   
+       width: 150px;
+       height: 40px;  
+    }
+    .btnse{   
+        width: 200px;   
+        height: 40px;  
+    }
+
+    .herolast{
+        width: 80%;
+    }
+    .herosec2{
+        height: 80vh;
+    }
+    .herosec3{
+        height: 155vh;     
+       
+    }
+
+    .herosec5{
+        height: 55vh;
+    }
+
+    .herosec5{
+        height: 75vh;
+    }
+
+    .swipe_clinet{
+        width: 90%;
+      }
+    
+
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+        cursor: pointer;
+     
+    }
+    
+    .confeedback{
+        width: 340px;
+    }
+    .confeedbackk{
+        width: 340px;
+    }
+    
+}
+@media only screen and (max-width:1280px) {
+
+    .herostart{
+        width: 80%;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{   
+        font-size: 16px !important;    
+    }
+    .btnre{   
+       width: 150px;
+       height: 40px;  
+    }
+    .btnse{   
+        width: 200px;   
+        height: 40px;  
+    }
+
+    .herolast{
+        width: 80%;
+    }
+
+    .conHero1{
+        width: 300px;
+    }
+
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .iconheros{
+        font-size: 60px;
+    }
+
+    .herosec2{
+        height: 104vh;
+    }
+    .herosec3{
+        height: 200vh;     
+       
+    }
+
+    .herosec5{
+        height: 85vh;
+    }
+
+    .swipe_clinet{
+        width: 90%;
+      }
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+        cursor: pointer;
+     
+    }
+    
+    .confeedback{
+        width: 340px;
+    }
+    .confeedbackk{
+        width: 340px;
+    }
+
+    .swipe_clinet{
+        width: 95%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 300px;
+    }
+    .confeedbackk{
+        width: 300px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+    
+}
+@media only screen and (max-width:1024px) {
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        width: 90%;
+        gap: 30px;
+    }
+    .conHero1{
+        width: 300px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    .iconheros{
+        font-size: 60px;
+    }
+    
+    .herosec2{
+        height: 165vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .herosec3{
+        height: 350vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 80vh;
+    }
+
+    .herosec5{
+        height: 105vh;
+    }
+
+    .swipe_clinet{
+        width: 100%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }     
+     .herosec6 h1{
+         font-size: 30px;
+     }
+     
+     
+
+}
+@media only screen and (max-width:912px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 280px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 100vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 200vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 40vh;
+    }
+
+    .herosec5{
+        height: 55vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 300px;
+    }
+    .confeedbackk{
+        width: 300px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:885px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 270px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 125vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 250vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 60vh;
+    }
+
+    .herosec5{
+        height: 55vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 300px;
+    }
+    .confeedbackk{
+        width: 300px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:840px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 220px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 115vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 230vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 60vh;
+    }
+
+    .herosec5{
+        height: 60vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:834px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 220px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 120vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 245vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 60vh;
+    }
+
+    .herosec5{
+        height: 60vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:821px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 220px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 125vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 250vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 60vh;
+    }
+
+    .herosec5{
+        height: 60vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:800px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 220px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 110vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 220vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 60vh;
+    }
+
+    .herosec5{
+        height: 60vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 260px;
+    }
+    .confeedbackk{
+        width: 260px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:769px) {
+
+    .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 16px;    
+    }
+
+    .herolast{
+        margin-top: 50px;
+        width: 95%;
+        gap: 20px;
+    }
+    .conHero1{
+        width: 220px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .icontext p{
+        font-size: 14px;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{  
+        height: 140vh;
+        background-image: none !important;
+        background: linear-gradient(lightblue,lightcyan) !important;
+    }
+
+   
+
+
+    .serviceHero{
+        grid-template-columns: 1fr 1fr  ;
+    }
+
+    .herosec3{
+        height: 295vh;     
+        background-image: none !important;
+        background: linear-gradient(lightblue,lightcyan) !important;
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .herosec4{
+         height: 70vh;
+    }
+
+    .herosec5{
+        height: 65vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 10vh;    
+     }     
+     .herosec6 h1{
+         font-size: 20px;
+     }
+       
+}
+@media only screen and (max-width:540px) {
+    .herostart{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+     .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 14px !important;    
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+     }
+     .btnse{   
+         width: 300px;   
+         height: 40px;  
+     }
+
+    .herolast{
+        margin-top: 50px;
+        width: 98%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+    }
+    .conHero1{
+        width: 250px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 330vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr   ;
+    }
+
+    .herosec3{
+        height: 700vh;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr ;
+    }
+
+    .herosec4{
+         height: 120vh;
+    }
+
+    .howitwork{
+        width: 100%;    
+    }
+   
+    .howitwork h2{
+        font-size: 5  0px !important;
+    }
+    .howitwork p{
+        color: #424242;
+        margin: 0;
+        text-shadow:  0 -10px 20px #fff;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+    
+    .findoneicon{
+        gap: 20px;
+    }
+    
+
+    .icon1hero hr{
+        height: 2px;
+      width: 50px;
+    }
+    
+    .iconHero1{
+       font-size: 18px;
+       
+    }
+    .iconherooo{
+        border: 3px solid #28a745;
+        width: 40px ;
+        height: 40px;
+        border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .icon1hero .iconhrhero{
+        background: #28a745;
+        height: 3px;
+      width: 20px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    .icon1hero .iconhrheroa{
+        background: #000;
+        height: 3px;
+      width: 45px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    
+
+    .findHero p,.payHero p,.contactHero p{
+        font-size: 20px;
+    }
+
+    
+    .findone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .herosec5{
+        height: 90vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }    
+     
+     .starthero{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+  justify-content: center !important;
+     }
+
+
+
+     
+ 
+}
+@media only screen and (max-width:429px) {
+    .herostart{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+     .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 14px !important;    
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+     }
+     .btnse{   
+         width: 300px;   
+         height: 40px;  
+     }
+
+    .herolast{
+        margin-top: 50px;
+        width: 98%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 275vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr   ;
+    }
+
+    .herosec3{
+        height: 600vh !important;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr ;
+    }
+
+    .herosec4{
+         height: 105vh;
+    }
+
+    .howitwork{
+        width: 100%;    
+    }
+   
+    .howitwork h2{
+        font-size: 5  0px !important;
+    }
+    .howitwork p{
+        color: #424242;
+        margin: 0;
+        text-shadow:  0 -10px 20px #fff;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+    
+    .findoneicon{
+        gap: 20px;
+    }
+    
+
+    .icon1hero hr{
+        height: 2px;
+      width: 50px;
+    }
+    
+    .iconHero1{
+       font-size: 18px;
+       
+    }
+    .iconherooo{
+        border: 3px solid #28a745;
+        width: 40px ;
+        height: 40px;
+        border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .icon1hero .iconhrhero{
+        background: #28a745;
+        height: 3px;
+      width: 20px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    .icon1hero .iconhrheroa{
+        background: #000;
+        height: 3px;
+      width: 45px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    
+
+    .findHero p,.payHero p,.contactHero p{
+        font-size: 20px;
+    }
+
+    
+    .findone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .herosec5{
+        height: 75vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }    
+     
+     .starthero{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+  justify-content: center !important;
+     }
+
+
+
+     
+ 
+}
+@media only screen and (max-width:425px) {
+    .herostart{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+     .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 14px !important;    
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+     }
+     .btnse{   
+         width: 300px;   
+         height: 40px;  
+     }
+
+    .herolast{
+        margin-top: 50px;
+        width: 98%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 275vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr   ;
+    }
+
+    .herosec3{
+        height: 590vh !important;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr ;
+    }
+
+    .herosec4{
+         height: 100vh;
+    }
+
+    .howitwork{
+        width: 100%;    
+    }
+   
+    .howitwork h2{
+        font-size: 5  0px !important;
+    }
+    .howitwork p{
+        color: #424242;
+        margin: 0;
+        text-shadow:  0 -10px 20px #fff;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+    
+    .findoneicon{
+        gap: 20px;
+    }
+    
+
+    .icon1hero hr{
+        height: 2px;
+      width: 50px;
+    }
+    
+    .iconHero1{
+       font-size: 18px;
+       
+    }
+    .iconherooo{
+        border: 3px solid #28a745;
+        width: 40px ;
+        height: 40px;
+        border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .icon1hero .iconhrhero{
+        background: #28a745;
+        height: 3px;
+      width: 20px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    .icon1hero .iconhrheroa{
+        background: #000;
+        height: 3px;
+      width: 45px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    
+
+    .findHero p,.payHero p,.contactHero p{
+        font-size: 20px;
+    }
+
+    
+    .findone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .herosec5{
+        height: 65vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }    
+     
+     .starthero{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+  justify-content: center !important;
+     }
+
+
+
+     
+ 
+}
+@media only screen and (max-width:415px) {
+    .herostart{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+     .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 14px !important;    
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+     }
+     .btnse{   
+         width: 300px;   
+         height: 40px;  
+     }
+
+    .herolast{
+        margin-top: 50px;
+        width: 98%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 280vh;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr   ;
+    }
+
+    .herosec3{
+        height: 630vh !important;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr ;
+    }
+
+    .herosec4{
+         height: 110vh;
+    }
+
+    .howitwork{
+        width: 100%;    
+    }
+   
+    .howitwork h2{
+        font-size: 5  0px !important;
+    }
+    .howitwork p{
+        color: #424242;
+        margin: 0;
+        text-shadow:  0 -10px 20px #fff;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+    
+    .findoneicon{
+        gap: 20px;
+    }
+    
+
+    .icon1hero hr{
+        height: 2px;
+      width: 50px;
+    }
+    
+    .iconHero1{
+       font-size: 18px;
+       
+    }
+    .iconherooo{
+        border: 3px solid #28a745;
+        width: 40px ;
+        height: 40px;
+        border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .icon1hero .iconhrhero{
+        background: #28a745;
+        height: 3px;
+      width: 20px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    .icon1hero .iconhrheroa{
+        background: #000;
+        height: 3px;
+      width: 45px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    
+
+    .findHero p,.payHero p,.contactHero p{
+        font-size: 20px;
+    }
+
+    
+    .findone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .herosec5{
+        height: 75vh;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }    
+     
+     .starthero{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+  justify-content: center !important;
+     }
+
+
+
+     
+ 
+}
+@media only screen and (max-width:413px) {
+    .herostart{
+        display:flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+     .heroimage img{
+        height: 300px;
+    }
+
+    .herobtn{
+        display: flex;
+    }
+
+    .btnhe{
+        font-size: 14px !important;    
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+     }
+     .btnse{   
+         width: 300px;   
+         height: 40px;  
+     }
+
+    .herolast{
+        margin-top: 50px;
+        width: 98%;
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+    
+    .herosec2{
+        height: 275vh !important;
+    }
+
+
+    .serviceHero{
+        grid-template-columns: 1fr   ;
+    }
+
+    .herosec3{
+        height: 590vh !important;     
+       
+    }
+
+    .workerHero{
+        grid-template-columns: 1fr ;
+    }
+
+    .herosec4{
+         height: 100vh !important;
+    }
+
+    .howitwork{
+        width: 100%;    
+    }
+   
+    .howitwork h2{
+        font-size: 5  0px !important;
+    }
+    .howitwork p{
+        color: #424242;
+        margin: 0;
+        text-shadow:  0 -10px 20px #fff;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+    
+    .findoneicon{
+        gap: 20px;
+    }
+    
+
+    .icon1hero hr{
+        height: 2px;
+      width: 50px;
+    }
+    
+    .iconHero1{
+       font-size: 18px;
+       
+    }
+    .iconherooo{
+        border: 3px solid #28a745;
+        width: 40px ;
+        height: 40px;
+        border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .icon1hero .iconhrhero{
+        background: #28a745;
+        height: 3px;
+      width: 20px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    .icon1hero .iconhrheroa{
+        background: #000;
+        height: 3px;
+      width: 45px;
+      outline: none;
+      border: none;
+     margin-top: 20px;
+    }
+    
+
+    .findHero p,.payHero p,.contactHero p{
+        font-size: 20px;
+    }
+
+    
+    .findone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .herosec5{
+        height: 65vh !important;
+    }
+
+    .swipe_clinet{
+        width: 88%;
+      }
+    
+
+    .conclient{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        cursor: pointer;
+       gap: 5px !important;
+    }
+    
+    .confeedback{
+        width: 250px;
+    }
+    .confeedbackk{
+        width: 250px;
+    }
+    .confeedback p{
+        font-size: 14px;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+    }
+    .herotextavater h4{
+       font-size: 18px;
+    }
+    .herotextavater h5{
+       font-size: 14px;
+    }
+
+    .swiper-slide{
+        margin: 0;
+    }
+
+    .herosec6{
+      height: 20vh;    
+     }    
+     
+     .starthero{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+  justify-content: center !important;
+     }
+
+
+
+     
+ 
+}
+@media only screen and (max-width:394px) {
+
+    .btnhe{
+        font-size: 14px !important;  
+        margin: 0;  
+        padding: 0;
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+        font-size: 8px;
+        margin-right: 20px;
+     }
+     .btnse{   
+         width: 400px !important;   
+         height: 40px;  
+         font-size: 8px;
+     }
+
+     .herolast{
+        margin-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+
+    .herosec2{
+        height: 290vh !important;
+    }
+    .herosec3{
+        height: 650vh !important;
+    }
+    .herosec4{
+        height: 130vh !important;
+    }
+    .herosec5{
+        height: 80vh !important;
+    }
+
+   
+}
+@media only screen and (max-width:391px) {
+
+    .btnhe{
+        font-size: 14px !important;  
+        margin: 0;  
+        padding: 0;
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+        font-size: 8px;
+        margin-right: 20px;
+     }
+     .btnse{   
+         width: 400px !important;   
+         height: 40px;  
+         font-size: 8px;
+     }
+
+     .herolast{
+        margin-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+
+    .herosec2{
+        height: 315vh !important;
+    }
+    .herosec3{
+        height: 680vh !important;
+    }
+    .herosec4{
+        height: 120vh !important;
+    }
+    .herosec5{
+        height: 90vh !important;
+    }
+
+
+   
+}
+@media only screen and (max-width:376px) {
+
+    .btnhe{
+        font-size: 14px !important;  
+        margin: 0;  
+        padding: 0;
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+        font-size: 8px;
+        margin-right: 20px;
+     }
+     .btnse{   
+         width: 400px !important;   
+         height: 40px;  
+         font-size: 8px;
+     }
+
+     .herolast{
+        margin-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+
+    .herosec2{
+        height: 330vh !important;
+    }
+    .herosec3{
+        height: 700vh !important ;
+    }
+    .herosec4{
+        height: 140vh !important;
+    }
+    .herosec5{
+        height: 90vh !important;
+    }
+
+   
+}
+@media only screen and (max-width:360px) {
+
+    .btnhe{
+        font-size: 14px !important;  
+        margin: 0;  
+        padding: 0;
+    }
+
+    .btnre{   
+        width: 180px;
+        height: 40px;  
+        font-size: 8px;
+        margin-right: 20px;
+     }
+     .btnse{   
+         width: 400px !important;   
+         height: 40px;  
+         font-size: 8px;
+     }
+
+     .herolast{
+        margin-top: 50px;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conHero1{
+        width: 200px;
+        height: 100px;
+    }
+    .icontext h2{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .icontext p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .iconheros{
+        font-size: 30px;
+    }
+
+    .herosec2{
+        height: 330vh !important;
+    }
+    .herosec3{
+        height: 720vh !important;
+    }
+    .herosec4{
+        height: 130vh !important;
+    }
+    .herosec5{
+        height: 90vh !important;
+    }
+
+   
+}
+@media only screen and (max-width:320px) {
+    .herosec2{
+        height: 480vh !important;     
+       
+    }
+    .herosec3{
+        height: 960vh !important;     
+       
+    }
+    .herosec4{
+        height: 180vh !important;     
+       
+    }
+    .herosec5{
+        height: 130vh !important;     
+       
+    }
+    .swipe_clinet{
+        width: 100%;
+    }
+
+    .starthero h1{
+        font-size: 16px;
+    }
+
+    .startbtnhewe{
+        font-size: 16px;
+    }
+
+    .workers p{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width:280px) {
+    .herosec2{
+        height: 370vh !important;
+    }
+    .herosec3{
+        height: 790vh !important;
+    }
+    .herosec4{
+        height: 165vh !important;
+    }
+    .herosec5{
+        height: 100vh !important;
+    }
+
+    .swipe_clinet{
+        width: 100%;
+    }
+
+    .starthero h1{
+        font-size: 16px;
+    }
+
+    .startbtnhewe{
+        font-size: 16px;
+    }
+
+    .workers p{
+        font-size: 20px;
+    }
+
+    .heroimage img{
+        height: 200px;
+    }
+
+    .confeedback{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .confeedbackk{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .confeedback p{
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .confeedbackk p{
+        font-size: 14px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .herotextavater h4{
+        font-size: 14px;
+    }
+
+    .herotextavater h5{
+        font-size: 15px;
+    }
+
+}

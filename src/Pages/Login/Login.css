@@ -1,0 +1,589 @@
+
+
+.logintext{
+    background: linear-gradient( to left,  rgb(206, 199, 199) 50% , #f7efef 90%   );
+    height: 85vh;
+padding-top: 0px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: none;
+margin: 0;
+}
+
+.loginfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+.loginimagereal{
+    background: linear-gradient(lightblue,lightcyan);
+    height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px lightblue;
+}
+
+.loginpagetext{
+    background: linear-gradient(white,lightcyan);
+    height: 100%;
+  width: 100%;
+}
+
+.logimagefake{
+  border: 1px solid #ffffff ;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 20px 10px #ffffff ;
+  position: relative;
+  top: 0;
+  left: -300px;
+}
+.logimagefake img{
+  height: 100px;
+}
+
+.imagereallog{
+  height: 400px;
+}
+
+.loginimagereal h2{
+  margin: 0;
+}
+.loginimagereal p{
+  margin: 20px 0;
+
+}
+.loginimagereal h5{
+  margin: 0;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.btnhewelog{
+  margin-top: -10px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btnhewelog:hover{
+  transition: 0.7s all ease-in-out;
+  color: #28a745;
+background: white;
+}
+
+.btnrewelog{
+  margin-top: 10px;
+  background: #28a745;
+}
+
+.loginpagetext{
+  display: flex;
+  flex-direction: column;
+
+justify-content: center;
+width: 100%;
+
+}
+
+.textloginreal{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+.textloginreal h2{
+ font-size: 40px;
+ margin: 0;
+ margin-left: 40px;
+}
+.textloginreal p{
+ font-size: 30px;
+ color: #424242;
+ margin: 0;
+ margin-left: 30px;
+ opacity: 0.7;
+ text-shadow: 0 10px 20px #424242;
+}
+
+
+.logimagefakereal{
+  border: 1px solid #ffffff ;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 20px 10px #ffffff ;
+  position: relative;
+ 
+}
+
+.logimagefakereal img{
+  height: 100px;
+}
+
+.rolereal p{
+font-size: 20px;
+font-weight: 700;
+color: #424242b9;
+width: 60%;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+.inputreal{
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #b1afaf9c;
+  padding:0px;
+  margin-bottom: 20px;
+}
+.inputreal span{
+  font-size: 14px;
+  padding:10px 20px;
+  
+}
+
+.textInputreal:focus {
+  border: 1px solid #28a745 ;
+}
+
+
+
+.checkbox{
+width: 2vh;
+height: 2vh;
+cursor: pointer;
+margin-right: 10px;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.textInputreal{
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.textInputreal::placeholder{
+ font-size: 16px;
+}
+
+.loginandforget{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.forget a{
+  text-decoration: none;
+  color: #28a745;
+  font-size: 16px;
+
+}
+.forget a:hover{
+  color: #424242;
+}
+
+.signup a{
+  text-decoration: none;
+  color: #28a745;
+  font-size: 16px;
+
+}
+
+.signup a:hover{
+  color: #424242;
+}
+
+.inputrealemployee{
+  cursor: pointer;
+}
+
+.forget button{
+ margin: 0;
+ padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #28a745;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.forget button:hover{
+  color: #424242;
+}
+
+@media only screen and (max-width:2560px){
+  .logintext{
+    height: 70vh;
+}
+}
+@media only screen and (max-width:2000px){
+  .logintext{
+    height: 90vh;
+}
+}
+@media only screen and (max-width:1440px) {
+  .logintext{
+    height: 100vh;
+}
+.loginfile{
+  width: 95%; 
+}
+
+.logimagefake{
+  left: -180px;
+}
+
+
+}
+@media only screen and (max-width:1280px) {
+  .logintext{
+    height: 100vh;
+}
+.logimagefake img{
+  height: 60px;
+}
+}
+@media only screen and (max-width:1024px) {
+  .logintext{
+    height: 130vh;
+}
+.logimagefake img{
+  height: 60px;
+}
+
+.loginandforget{
+  width: 80%;
+}
+
+.bothdorgote{
+  margin-top: 40px;
+}
+
+}
+@media only screen and (max-width:912px) {
+  .logintext{
+    height: 160vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 90%;
+    height: 150vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+.loginimagereal{
+  height: 100%;
+  margin-top: 50px;
+}
+.loginpagetext{
+  height: 100%;
+  margin-bottom: 100px;
+}
+}
+@media only screen and (max-width:821px) {
+  .logintext{
+    height: 150vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 90%;
+    height: 150vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+.loginimagereal{
+  height: 100%;
+  margin-top: 50px;
+}
+.loginpagetext{
+  height: 100%;
+  margin-bottom: 100px;
+}
+}
+@media only screen and (max-width:769px) {
+
+  .imagereallog{
+    height: 200px;
+  }
+
+  .logintext{
+    height: 140vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 90%;
+    height: 150vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+.loginimagereal{
+  height: 100%;
+  margin-top: 50px;
+}
+.loginpagetext{
+  height: 100%;
+  margin-bottom: 100px;
+}
+}
+@media only screen and (max-width:540px) {
+  .logimagefake{
+    left: -130px;
+  }
+  .logintext{
+    height: 190vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 100%;
+    height: 190vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+.loginimagereal{
+  height: 100%;
+  margin-top: 50px;
+}
+.loginpagetext{
+  height: 100%;
+  margin-bottom: 100px;
+}
+.textloginreal{
+  width: 100%;
+}
+.textloginreal h2{
+ font-size: 40px;
+ margin: 0;
+ margin-left: 40px;
+}
+.textloginreal p{
+ font-size: 30px;
+ color: #424242;
+ margin: 0;
+ margin-left: 30px;
+ opacity: 0.7;
+ text-shadow: 0 10px 20px #424242;
+}
+.loginandforget{
+  width: 90%;
+}
+.bothdorgote{
+  margin-top: 40px;
+}
+}
+@media only screen and (max-width:429px) {
+
+  .checkbox{
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+  .logimagefake{
+    left: -130px;
+  }
+  .logintext{
+    height: 190vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 100%;
+    height: 190vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+.loginimagereal{
+  height: 100%;
+  margin-top: 50px;
+}
+.loginpagetext{
+  height: 100%;
+  margin-bottom: 100px;
+}
+.textloginreal{
+  width: 100%;
+}
+.textloginreal h2{
+ font-size: 40px;
+ margin: 0;
+ margin-left: 40px;
+}
+.textloginreal p{
+ font-size: 30px;
+ color: #424242;
+ margin: 0;
+ margin-left: 30px;
+ opacity: 0.7;
+ text-shadow: 0 10px 20px #424242;
+}
+.loginandforget{
+  width: 90%;
+}
+.bothdorgote{
+  margin-top: 40px;
+}
+}
+@media only screen and (max-width:393px) {
+
+  .logimagefakereal img{
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .loginimagereal p{
+    text-align: center;
+  }  
+  .logintext{
+    height: 220vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 100%;
+    height: 220vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+}
+@media only screen and (max-width:375px) {
+
+  .logimagefakereal img{
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .loginimagereal p{
+    text-align: center;
+  }  
+  .logintext{
+    height: 220vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 100%;
+    height: 220vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+}
+@media only screen and (max-width:360px) {
+
+  .logimagefakereal img{
+    height: 50px;
+    margin-left: 20px;
+  }
+
+  .loginimagereal p{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+  }  
+  .logintext{
+    height: 220vh;
+    margin: 0;
+}
+  .loginfile{
+    display: grid;
+  grid-template-columns: 1fr;
+    width: 100%;
+    height: 220vh;
+    margin: 0 auto;   
+    gap: 100px;
+}
+}
+@media only screen and (max-width:320px) {
+    .logimagefake {
+      display: none;
+    }
+
+    .loginfile{
+      display: grid;
+    grid-template-columns: 1fr;
+      width: 100%;
+      height: 200vh;
+      margin: 0 auto;   
+      gap: 100px;
+  }
+
+  .logintext{
+    height: 200vh;
+  }
+
+  .logimagefakereal img{
+    display: none;
+  }
+
+  .loginimagereal h2,.loginimagereal p{
+    display: none;
+  }
+
+  .textloginreal h2{
+    display: none;
+  }
+
+  .loginandforget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .herobtnWork{
+    margin: 0;
+  }
+
+  .bothdorgote{
+    margin: 0;
+  }
+
+}
+@media only screen and (max-width:280px) {
+    
+}

@@ -1,0 +1,675 @@
+
+.detail{
+    background-image: url('../../component/Assets/detail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.bgDetail{
+ width: 80%;
+ margin: 0 auto;
+ height: 76vh;
+ background: white;
+ box-shadow: 10px -10px 20px #fff;
+ display: flex;
+ flex-direction: column;
+ margin-top: 50px;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.ratingText{
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: bolder;
+  background: linear-gradient(#28a745,#23476b);
+  -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+
+}
+
+.ratingBtn{
+  padding: 10px 25px;
+  margin-left: 50px;
+  background: #28a745;
+  border: none;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  font-weight:300;
+  cursor: pointer;
+}
+.ratingBtn:hover{
+  padding: 10px 25px;
+  margin-left: 50px;
+  background: #23476b;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px #23476b;
+}
+
+input[type=radio]{
+  display: none;
+}
+
+.star{
+  cursor: pointer;
+  
+}
+
+.label{
+  display: flex;
+}
+
+
+.theRest{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    gap: 20px;
+}
+
+.skillOne{
+    display: flex;
+    padding-top: 0;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 20px;
+
+}
+.skillOne h4{
+ margin-right: 50px;
+
+}
+
+
+.allInfoWorkk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.religion{
+    width: 400px;
+    display: flex;
+   justify-content: space-between;
+    gap: 70px;
+    border-top: 1px solid #42424234;    
+}
+
+.religion:last-child{
+    border-bottom: 1px solid #42424234; 
+}
+
+.religion p{
+    color: #4242426e;
+}
+.religion h4{
+    color: #424242d7;
+}
+
+
+
+
+.conworkerrr{
+    
+    
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden ;
+    margin-top: -220px;
+    
+}
+ .workerrrsimage:hover{
+    transition: all 1s ease-in-out;
+   transform: scale(1.1);
+   opacity: 0.7;
+}
+
+.conworkerrr h2{
+  font-size: 25px;
+  color: black;
+  margin: 10px 0;
+  margin-top: 30px;
+}
+.conworkerrr h3{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+  
+}
+.conworkerrr h4{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 2px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+}
+.conworkerrr h5{
+  font-size: 20px;
+  color: #352b2b;
+  margin: 2px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 10px 20px #ffffff;
+}
+
+.btnhewerrr{
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnhewerrr p{
+  color: white;
+}
+.btnhewerrr:hover a{
+  opacity: 0.8;
+  color: #28a745;
+
+}
+
+.btnrewerrr{
+    background: #28a745;
+}
+.btnhewerrr a{
+   color: white;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.workerrrsimage{
+  height: 90px;
+   width: 90px;
+    border-radius: 50%;
+}
+
+.ratingStar{
+  display: flex;
+}
+
+
+@media only screen and (max-width:2560px){
+
+}
+@media only screen and (max-width:2000px){
+
+}
+@media only screen and (max-width:1440px) {
+    
+.detail{
+  height: 110vh;
+}
+
+.bgDetail{
+height: 90vh;
+}
+
+
+.conworkerrr{
+    
+  margin-top: -160px;
+  
+}
+
+}
+@media only screen and (max-width:1024px) {
+  .theRest{
+   width: 100%;
+}
+.bgDetail{
+  width: 100%;
+  }
+  .religion{
+    width: 300px;
+    display: flex;
+   justify-content: space-between;
+    gap: 20px !important;
+    border-top: 1px solid #42424234;
+    
+  }
+}
+@media only screen and (max-width:912px) {
+  .theRest{
+    grid-template-columns: 1fr !important ;
+   width: 100%;
+}
+
+.detail{
+
+  height: 150vh;
+
+}
+
+.bgDetail{
+width: 100%;
+margin: 0 auto;
+height: 130vh;
+
+}
+
+
+
+.ratingStar{
+  display: flex;
+}
+.religion{
+  width: 600px;
+  display: flex;
+ justify-content: space-between;
+  gap: 20px !important;
+  border-top: 1px solid #42424234;
+  
+}
+
+.conworkerrr{  
+  margin-top: -480px;
+}
+
+.workerrrsimage{
+  width: 30%;
+  margin-top: 0;
+}
+
+
+.conworkerrr h2{
+  font-size: 24px;
+  margin-top: 0px;
+}
+.conworkerrr h3{
+  font-size: 22px;
+  margin-top: 0px;
+}
+.conworkerrr h4{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.conworkerrr h5{
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.btnhewerrr{
+  margin-top: 0px !important; 
+
+}
+
+.allInfoWorkk:first-child{
+ position: relative;
+top: 200px;
+}
+.allInfoWorkk:last-child{
+ position: relative;
+top: 200px;
+}
+.skilldetail{
+  position: relative;
+top: 210px;
+}
+
+.rating{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 240px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ratingText{
+    margin-right: 0px;  
+    text-align: center;
+}
+
+.ratingBtn{
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.ratingBtn:hover{
+  margin-left: 0px;
+}
+
+}
+@media only screen and (max-width:769px) {
+  
+  .theRest{
+    grid-template-columns: 1fr !important ;
+   width: 100%;
+}
+
+.detail{
+
+  height: 180vh;
+
+}
+
+.bgDetail{
+width: 100%;
+margin: 0 auto;
+height: 160vh;
+
+}
+
+
+
+.ratingStar{
+  display: flex;
+}
+.religion{
+  width: 600px;
+  display: flex;
+ justify-content: space-between;
+  gap: 20px !important;
+  border-top: 1px solid #42424234;
+  
+}
+
+.conworkerrr{  
+  margin-top: -480px;
+}
+
+.workerrrsimage{
+  width: 30%;
+  margin-top: 0;
+}
+
+
+.conworkerrr h2{
+  font-size: 24px;
+  margin-top: 0px;
+}
+.conworkerrr h3{
+  font-size: 22px;
+  margin-top: 0px;
+}
+.conworkerrr h4{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.conworkerrr h5{
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.btnhewerrr{
+  margin-top: 0px !important; 
+
+}
+
+.allInfoWorkk:first-child{
+ position: relative;
+top: 200px;
+}
+.allInfoWorkk:last-child{
+ position: relative;
+top: 200px;
+}
+.skilldetail{
+  position: relative;
+top: 210px;
+}
+
+.rating{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 240px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ratingText{
+    margin-right: 0px;  
+    text-align: center;
+}
+
+.ratingBtn{
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.ratingBtn:hover{
+  margin-left: 0px;
+}
+
+
+}
+@media only screen and (max-width:429px) {
+  .theRest{
+    grid-template-columns: 1fr !important ;
+   width: 100%;
+}
+
+.detail{
+
+  height: 200vh;
+
+}
+
+.bgDetail{
+width: 100%;
+margin: 0 auto;
+height: 180vh;
+
+}
+
+
+
+.ratingStar{
+  display: flex;
+}
+.religion{
+  width: 350px;
+  display: flex;
+ justify-content: space-between;
+  gap: 20px !important;
+  border-top: 1px solid #42424234;
+  
+}
+
+.conworkerrr{  
+  margin-top: -480px;
+}
+
+.workerrrsimage{
+  width: 30%;
+  margin-top: 0;
+}
+
+
+.conworkerrr h2{
+  font-size: 24px;
+  margin-top: 0px;
+}
+.conworkerrr h3{
+  font-size: 22px;
+  margin-top: 0px;
+}
+.conworkerrr h4{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.conworkerrr h5{
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.btnhewerrr{
+  margin-top: 0px !important; 
+
+}
+
+.allInfoWorkk:first-child{
+ position: relative;
+top: 200px;
+}
+.allInfoWorkk:last-child{
+ position: relative;
+top: 200px;
+}
+.skilldetail{
+  position: relative;
+top: 210px;
+}
+
+.rating{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 240px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ratingText{
+    margin-right: 0px;  
+    text-align: center;
+}
+
+.ratingBtn{
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.ratingBtn:hover{
+  margin-left: 0px;
+}
+
+}
+
+@media only screen and (max-width:391px) {
+  
+  .religion{
+    width: 300px;
+    display: flex;
+   justify-content: space-between;
+    gap: 20px !important;
+    border-top: 1px solid #42424234;
+    
+  }
+
+  .detail{
+
+    height: 210vh !important;
+  
+  }
+  
+  .bgDetail{
+  width: 100%;
+  margin: 0 auto;
+  height: 190vh !important;
+  
+  }
+
+  
+
+}
+
+@media only screen and (max-width:376px) {
+  
+  .religion{
+    width: 300px;
+    display: flex;
+   justify-content: space-between;
+    gap: 20px !important;
+    border-top: 1px solid #42424234;
+    
+  }
+
+  .detail{
+
+    height: 220vh !important;
+  
+  }
+  
+  .bgDetail{
+  width: 100%;
+  margin: 0 auto;
+  height: 200vh !important;
+  
+  }
+
+  
+
+}
+@media only screen and (max-width:361px) {
+
+.detail{
+
+  height: 220vh !important;
+
+}
+
+.bgDetail{
+width: 100%;
+margin: 0 auto;
+height: 200vh !important;
+
+}
+
+.ratingText{
+  text-align: center;
+  margin-right: 0px;  
+}
+
+}
+@media only screen and (max-width:320px) {
+  .detail{
+
+    height: 300vh !important;
+  
+  }
+  
+  .bgDetail{
+  width: 100%;
+  margin: 0 auto;
+  height: 280vh !important;
+  
+  }  
+}

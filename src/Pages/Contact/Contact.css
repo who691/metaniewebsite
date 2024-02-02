@@ -1,0 +1,966 @@
+.contactsec1{
+    background: linear-gradient( to left,  rgb(206, 199, 199) 50% , #f7efef 90%   );
+    height: 150vh;
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: none;
+}
+
+.clientcontact{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientcontact h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.clientcontact p{
+    color: #28a745;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.clientcontact hr{
+    width: 10%;
+    border: 1px solid #28a745;
+    
+    margin-bottom: 80px;
+}
+
+.contactinfo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.contactinforeal{
+    background: transparent;
+    width: 400px;
+    height: 410px;
+    border: 1px solid #ffffff ;
+    box-shadow: 0 10px 20px #ffffff;
+    padding: 20px;
+}
+.contactinforeal h1{
+    color: #28a745;
+    margin-bottom: 40px;
+}
+
+.contextreal{
+    display: flex;
+    align-items: center;
+   gap: 50px;
+   margin-bottom: 25px;
+}
+
+
+.iconConReal{
+    font-size: 30px;
+    color: #515050;
+}
+
+.iconContactreal{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #515050;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContactText h2{
+    margin: 0;
+    color: #515050;
+    margin-bottom: 5px;
+    }
+
+.iconContactText p{
+margin: 0;
+color: #515050;
+}
+
+.iconContactText a{
+    text-decoration: none;
+    color: #515050;
+}
+
+.conFileInfo{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.nameEmailInfo{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.nameInfo {
+    width: 45%;
+border:  1px solid #515050b2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0 10px 20px #515050;
+}
+.emailInfo {
+    width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+}
+
+.nameTextInfo{
+    border:  none;
+   width: 70%;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+.nameTextInfo::placeholder{
+   font-size: 20px;
+}
+
+.nameIconInfo{
+    margin-right: 20px;
+    font-size: 30px;
+    color: #28a745;
+}
+
+.emailTextInfo{
+    border:  none;
+    width: 70%;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 20px;
+   
+}
+
+.emailTextInfo::placeholder{
+    font-size: 20px;
+ }
+ 
+ .emailIconInfo{
+     margin-right: 20px;
+     font-size: 30px;
+     color: #28a745;
+ }
+
+ .feedbackreal{
+    width: 100%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;  
+    margin-top: 40px;
+ }
+
+ .feedbackTextInfo{
+    width: 100%;
+    outline: none;   
+    padding: 35px ;
+    padding-bottom: 110px;
+    border:  1px solid #515050b2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0 10px 20px #515050;
+}
+
+.feedbackTextInfo{
+    font-size: 25px;
+}
+.feedbackTextInfo::placeholder{
+    font-size: 25px;
+}
+
+.btnhewecontact{
+    margin-top: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnhewecontact:hover{
+    transition: 0.7s all ease-in-out;
+    color: #28a745;
+ background: white;
+}
+
+.btnrewecontact{
+    margin-top: 50px;
+    background: #28a745;
+}
+
+
+@media only screen and (max-width:2560px){
+    .contactsec1{
+        height: 115vh;
+    }
+    .nameIconInfo{
+        margin-right: 50px;
+    }
+    .emailIconInfo{
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width:2000px){
+    .nameIconInfo{
+        margin-right: 20px;
+    }
+    .emailIconInfo{
+        margin-right: 20px;
+    }
+    .contactsec1{
+        height: 160vh;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .contactsec1{
+        height: 155vh;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:1280px) {
+    .contactsec1{
+        height: 160vh;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .contactsec1{
+        height: 210vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 350px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:912px) {
+    .contactsec1{
+        height: 135vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:885px) {
+    .contactsec1{
+        height: 170vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:840px) {
+    .contactsec1{
+        height: 155vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:834px) {
+    .contactsec1{
+        height: 170vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:821px) {
+    .contactsec1{
+        height: 165vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:800px) {
+    .contactsec1{
+        height: 145vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:769px) {
+    .contactsec1{
+        height: 200vh;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px !important;
+        margin-bottom: 50px;
+    }
+    .contactinforeal{
+        background: transparent;
+        width: 460px;
+        height: 410px;
+        border: 1px solid #ffffff ;
+        box-shadow: 0 10px 20px #ffffff;
+        padding: 20px;
+    }
+    .mapGoogle iframe{
+        width: 500px;
+    }
+    .conFileInfo{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media only screen and (max-width:540px) {
+    .contactsec1{
+        height: 250vh;
+    }
+    .contactinfo{
+        grid-template-columns: 1fr;
+    }
+    .contactinforeal{
+        width: 400px;
+    }
+    .mapGoogle iframe{
+        width: 440px;
+    }
+    .conFileInfo{
+        width: 100%;
+    } 
+
+    .nameTextInfo{
+        font-size: 15px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 15px;
+    }
+
+    .emailTextInfo{
+        font-size: 15px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 15px;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+
+}
+@media only screen and (max-width:429px) {
+    .contactsec1{
+        height: 210vh;
+    }
+    .contactinfo{
+        grid-template-columns: 1fr;
+    }
+    .contactinforeal{
+        width: 400px;
+    }
+    .mapGoogle iframe{
+        width: 440px;
+    }
+    .conFileInfo{
+        width: 100%;
+    } 
+
+    .nameTextInfo{
+        font-size: 15px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 15px;
+    }
+
+    .emailTextInfo{
+        font-size: 15px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 15px;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+
+}
+@media only screen and (max-width:425px) {
+    .contactsec1{
+        height: 215vh;
+    }
+    .contactinfo{
+        grid-template-columns: 1fr;
+    }
+    .contactinforeal{
+        width: 400px;
+    }
+    .mapGoogle iframe{
+        width: 440px;
+    }
+    .conFileInfo{
+        width: 100%;
+    } 
+
+    .nameTextInfo{
+        font-size: 15px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 15px;
+    }
+
+    .emailTextInfo{
+        font-size: 15px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 15px;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:393px) {
+    .contactsec1{
+        height: 250vh !important;
+    }
+    .contactinforeal{
+        width: 350px;
+    }
+    .mapGoogle iframe{
+        width: 390px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+
+
+@media only screen and (max-width:390px) {
+    .contactsec1{
+        height: 220vh;
+    }
+    .contactinforeal{
+        width: 350px;
+    }
+    .mapGoogle iframe{
+        width: 390px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:376px) {
+
+    .contactsec1{
+        height: 280vh;
+    }
+
+    .contactinforeal{
+        width: 350px;
+    }
+    .mapGoogle iframe{
+        width: 390px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:360px) {
+
+    .contactsec1{
+        height: 250vh;
+    }
+
+    .contactinforeal{
+        width: 350px;
+    }
+    .mapGoogle iframe{
+        width: 390px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:320px) {
+
+    .contactsec1{
+        height: 360vh !important;
+    }
+
+    .contactinforeal{
+        width: 300px;
+    }
+    .mapGoogle iframe{
+        width: 330px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+
+    .iconContactText h2{
+        font-size: 18px;
+    }
+
+    .iconConReal{
+        font-size: 25px;
+    }
+    
+    .iconContactreal{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+
+}
+@media only screen and (max-width:280px) {
+
+    .contactsec1{
+        height: 290vh;
+    }
+
+    .contactinforeal{
+        width: 280px;
+    }
+  .iconContactreal{
+    display: none;
+  }
+    .mapGoogle iframe{
+        width: 320px;
+    }
+    .nameTextInfo{
+        font-size: 12px;
+    }
+
+    .nameTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .emailTextInfo{
+        font-size: 12px;
+    }
+
+    .emailTextInfo::placeholder{
+        font-size: 12px;
+    }
+
+    .nameInfo {
+        width: 45%;
+    border:  1px solid #515050b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px #515050;
+    }
+    .emailInfo {
+        width: 45%;
+        border:  1px solid #515050b2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 10px 20px #515050;
+    }
+    .nameIconInfo{
+        margin-left: 20px;
+    }
+    .emailIconInfo{
+        margin-left: 20px;
+    }
+
+    .iconContactText h2{
+        font-size: 18px;
+    }
+
+    .iconConReal{
+        font-size: 25px;
+    }
+    
+    .iconContactreal{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    
+
+}
